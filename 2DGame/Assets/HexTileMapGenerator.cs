@@ -8,8 +8,8 @@ public class HexTileMapGenerator : MonoBehaviour
     [SerializeField] int mapWidth = 25;
     [SerializeField] int mapHeight = 12;
 
-    float tileXOffSet = 1.8f;
-    float tileZOffSet = 1.565f;
+    float tileXOffSet = 1.8f; // changes tile size
+    float tileZOffSet = 1.565f; // changes the distance between tiles.
     
     void Start()
     {
